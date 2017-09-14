@@ -1,0 +1,25 @@
+body {
+    background: url(recordingStudio.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.header {
+    font-family: futura;
+    color: white;
+    font-weight: 300;
+    font-size: 60;
+    text-align: center;
+    
+}
+
+.subHeader {
+    font-family: futura;
+    color: white;
+    font-weight: 100;
+    font-size: 36;
+    text-align: center;
+}
+
+.mainText {
+    margin-top: 100px;
+}
