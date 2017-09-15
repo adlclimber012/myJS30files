@@ -1,25 +1,54 @@
 body {
     background: url(recordingStudio.jpg) no-repeat center center fixed;
     background-size: cover;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .header {
-    font-family: futura;
+/*    font-family: futura;*/
     color: white;
     font-weight: 300;
-    font-size: 60;
+    font-size: 80;
     text-align: center;
-    
+    margin: 0;
+    background-color: rgba(0,0,0,0.60);
 }
 
 .subHeader {
-    font-family: futura;
+/*    font-family: futura;*/
     color: white;
     font-weight: 100;
     font-size: 36;
     text-align: center;
+    background-color: rgba(0,0,0,0.60);
 }
 
 .mainText {
-    margin-top: 100px;
+    margin-top: 50px;
+}
+
+.keys {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+/*    font-family: futura;*/
+    font-weight: 100;
+}
+
+.keys div {
+    margin: 5px;
+    border: 1px solid orange;
+    height: 50px;
+    width: 50px;
+    background-color: rgba(0,0,0,0.60);
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 100;
+}
+
+.keys div h1 {
+    margin: 0;
+    line-height: 50px;
 }
